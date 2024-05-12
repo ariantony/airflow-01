@@ -18069,3 +18069,50 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/our_first_dag.py                                             1           0  0.09s           2024-05-12T10:29:04
 /opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.07s           2024-05-12T10:29:10
 ================================================================================
+[2024-05-12T10:29:58.336+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.07s           2024-05-12T10:29:41
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.07s           2024-05-12T10:29:35
+================================================================================
+[2024-05-12T10:30:28.647+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.08s           2024-05-12T10:30:05
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.08s           2024-05-12T10:30:11
+================================================================================
+[2024-05-12T10:30:58.986+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.09s           2024-05-12T10:30:35
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.08s           2024-05-12T10:30:41
+================================================================================
+[2024-05-12T10:31:29.357+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.24s           2024-05-12T10:31:12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.09s           2024-05-12T10:31:06
+================================================================================
+[2024-05-12T10:31:59.695+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.08s           2024-05-12T10:31:36
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.07s           2024-05-12T10:31:42
+================================================================================
+[2024-05-12T10:32:05.759+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-05-12T10:32:05.774+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
