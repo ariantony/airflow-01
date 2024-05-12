@@ -9,11 +9,12 @@ default_args = {
         'retry_delay': timedelta(minutes=5)
         }
 
-def greet(age, ti):
+def greet(ti):
     # name = ti.xcom_pull(task_ids='get_name')
     
     first_name = ti.xcom_pull(task_ids='get_name', key='first_name')
     last_name = ti.xcom_pull(task_ids='get_name', key='last_name')
+    age = ti.xcom_pull(task_ids='get_age', key='age')
     
     print(
         f"Hello World! My name is {first_name} {last_name},"
@@ -23,9 +24,12 @@ def greet(age, ti):
 def get_name(ti):
     ti.xcom_push(key='first_name', value='Achasza')
     ti.xcom_push(key='last_name', value='Arianto')
+ 
+def get_age(ti):
+    ti.xcom_push(key='age', value='12')
     
 with DAG(
-        dag_id='our_dag_with_python_operator_v06',
+        dag_id='our_dag_with_python_operator_v07',
         default_args=default_args,
         description='Using python operator',
         start_date=datetime(2023, 7, 12),
@@ -34,8 +38,7 @@ with DAG(
     
     task1 = PythonOperator(
         task_id = 'greet',
-        python_callable=greet,
-        op_kwargs={'age':43}
+        python_callable=greet
     )
 
     task2 = PythonOperator(
@@ -43,4 +46,9 @@ with DAG(
         python_callable=get_name,
     )
 
-task2 >> task1
+    task3 = PythonOperator(
+        task_id = 'get_age',
+        python_callable=get_age,
+    )
+    
+[task2, task3] >> task1
