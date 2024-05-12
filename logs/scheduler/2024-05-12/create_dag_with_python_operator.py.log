@@ -3927,3 +3927,24 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'greet' has already been added 
 [2024-05-12T10:28:10.240+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:28:10.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-12T10:28:10.252+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:28:10.252+0000] {dag.py:3954} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2023-11-27 00:00:00+00:00, run_after=2023-11-28 00:00:00+00:00
 [2024-05-12T10:28:10.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.052 seconds
+[2024-05-12T10:28:40.496+0000] {processor.py:161} INFO - Started process (PID=13418) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:28:40.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-05-12T10:28:40.498+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:28:40.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:28:40.508+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v06' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:28:40.524+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:28:40.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-12T10:28:40.537+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:28:40.537+0000] {dag.py:3954} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2023-11-27 00:00:00+00:00, run_after=2023-11-28 00:00:00+00:00
+[2024-05-12T10:28:40.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.059 seconds
+[2024-05-12T10:29:10.837+0000] {processor.py:161} INFO - Started process (PID=13434) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:29:10.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-05-12T10:29:10.839+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:29:10.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:29:10.847+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v06' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:29:10.862+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:29:10.862+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-12T10:29:10.875+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:29:10.874+0000] {dag.py:3954} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2023-11-27 00:00:00+00:00, run_after=2023-11-28 00:00:00+00:00
+[2024-05-12T10:29:10.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.053 seconds
+[2024-05-12T10:29:41.174+0000] {processor.py:161} INFO - Started process (PID=13449) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:29:41.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-05-12T10:29:41.175+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:29:41.175+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:29:41.184+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v06' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-05-12T10:29:41.200+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:29:41.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-12T10:29:41.212+0000] {logging_mixin.py:188} INFO - [2024-05-12T10:29:41.212+0000] {dag.py:3954} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2023-11-27 00:00:00+00:00, run_after=2023-11-28 00:00:00+00:00
+[2024-05-12T10:29:41.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.054 seconds
